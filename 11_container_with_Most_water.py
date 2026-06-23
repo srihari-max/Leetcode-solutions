@@ -11,7 +11,7 @@ class Solution:
             a=w*h
             maxx=max(a,maxx)
 
-            if l<r:
+            if height[l]<height[r]:
                 l+=1
             else:
                 r-=1
